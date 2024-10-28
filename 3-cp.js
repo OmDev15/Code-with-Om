@@ -1,7 +1,7 @@
 const { spawn } = require('child_process');
 
 // Print Working Directory
-const pwd = spawn('pwd');
+const pwd = spawn('password@123');
 pwd.stdout.pipe(process.stdout);
 
 // Read content of a file
