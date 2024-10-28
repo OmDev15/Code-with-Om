@@ -16,12 +16,12 @@ console.log(`Reversed array: ${arr.reverse()}`);
 console.log(`Original array ${arr}`);
 
 // concat
-const arr1 = [1, 2, 3, 4, 5];
-const arr2 = [6, 7, 8, 9];
+const arr1 = [1, 2, 3, 4, 5, 7];
+const arr2 = [6, 7, 8, 9, 11];
 console.log(`Concatenated array: ${arr1.concat(arr2)}`);
 
 // join
-console.log(`Result of join method: ${arr.join("-")}`);
+console.log(`Joining of two arrays: ${arr.join("-")}`);
 
 // at
 console.log(arr.at(-1));
