@@ -4,7 +4,7 @@ console.log(one); // Hoisted with undefined so will not show any error.
 //console.log(two); // Let and const can't be hoisted so this is TDZ for let and const.
 //console.log(three);
 
-var one = 1; // var will be initialized with undefined during creation phase.
+var one = 9; // var will be initialized with undefined during creation phase.
 const two = 2;
 let three = 2;
 
@@ -12,7 +12,7 @@ let three = 2;
 // Function Declartion
 myFunction();
 function myFunction() {
-  console.log('Function declaration');
+  console.log('Function declaration done');
 }
 
 // Function Expression with var
